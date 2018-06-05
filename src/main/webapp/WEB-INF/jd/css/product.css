@@ -347,8 +347,36 @@ del,u {
 	position:absolute;
 	display:none;
 }
+/***********content样式开始******************/
 #content {
 	height:500px;
+}
+#bread_nav {
+	width:1204px;
+	height:20px;
+	padding:0 0 4px 6px;
+	margin-bottom:10px;
+}
+#bread_nav h3,#bread_nav li,#bread_nav ul {
+	float:left;
+}
+#bread_nav a:hover {
+	color:#cd2a2c;
+}
+#bread_nav a {
+	/*a标记上下margin不生效*/
+	margin:3px;
+}
+#bread_nav h3 {
+	marin-right:3px;
+	font-size:18px;
+	font-family:"微软雅黑";
+}
+#bread_nav span {
+	margin:0 2px 0 5px;
+}
+#bread_nav li {
+	margin-top:7px;
 }
 /***********recent样式开始******************/
 #recent {
