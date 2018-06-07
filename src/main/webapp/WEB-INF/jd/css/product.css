@@ -378,6 +378,59 @@ del,u {
 #bread_nav li {
 	margin-top:7px;
 }
+#product_info {
+	height:450px;
+	border:1px solid black;
+}
+#product_img {
+	width:352px;
+	position:absolute;
+}
+#datu {
+	width:350px;
+	height:350px;
+	border:1px solid #ddd;
+	margin-bottom:5px;
+}
+#xiaotu {
+	width:352px;
+	height:54px;
+	position:relative;
+}
+.xt_left,.xt_right {
+	width:17px;
+	height:54px;
+	background:url(../../images/iconlist_1.png);
+	position:absolute;
+}
+.xt_left {
+	top:0px;
+	left:0px;
+	background-position:0px -139px;
+}
+.xt_left:hover {
+	background-position:-34px -139px;
+}
+.left_disabled,.left_disabled:hover {
+	background-position:-68px -139px;
+}
+.xt_right {
+	top:0px;
+	right:0px;
+	background-position:-17px -139px;
+}
+.xt_right:hover {
+	background-position:-51px -139px;
+}
+.right_disabled,.right_disabled:hover {
+	background-position:-85px -139px;
+}
+.prd_content {
+	width:600px;
+	border:1px solid blue;
+	height:400px;
+	margin-left:360px;
+}
 /***********recent样式开始******************/
 #recent {
 	height:156px;
